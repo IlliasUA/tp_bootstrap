@@ -1,0 +1,77 @@
+header {
+    margin-top: 20px;
+}
+
+.titre_daccueil{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+.accueil {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;   
+}
+
+.text-decoration-none
+{
+    color: #000000;
+}
+
+.titre_dinvest {
+    margin-top: 160px;
+    margin-left: 480px;
+}
+
+.parallax-header {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.image-background {
+    position: absolute;
+    inset: -20px  0;
+    background-image: url("../resources/image1.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    will-change: transform;
+}
+
+.white-foreground {
+    position: relative;
+    z-index: 2;
+    min-height: 440px;
+    background-color: #ffffff;
+    will-change: transform;
+}
+
+.titre_daccueil,
+.titre_dinvest {
+    position: relative;
+    z-index: 2;
+}
+
+.apropos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+    margin: 0 auto;
+    gap: 24px;
+}
+
+.apropos-title {
+    margin-top: 15px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.apropos-text {
+    margin-top: 0px;
+    line-height: 1.3;
+    text-align: left;
+}
